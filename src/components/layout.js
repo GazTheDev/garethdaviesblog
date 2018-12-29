@@ -2,6 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import styled from 'styled-components'
+import { Image } from 'cloudinary-react';
 
 import Sidebar from './sidebar'
 
