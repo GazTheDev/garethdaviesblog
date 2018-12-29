@@ -26,16 +26,16 @@ export default () => (
       method="post"
       data-netlify="true"
       netlify-honeypot="bot-field"
-      action="/thanks"
 
     >
       <input hidden className="hidden" name="bot-field" />
       <input type="email" placeholder="Email" name="email" />
       <br />
       <br />
-      <input type="text" placeholder="Name" name="name" />
-      <div data-netlify-recaptcha />
-      <button>Send</button>
+      <textarea rows="4" cols="50">
+
+      </textarea>      <div data-netlify-recaptcha />
+      <button style={{ fontFamily: `inherit` }}>Send</button>
     </form>
   </Layout>
 )
