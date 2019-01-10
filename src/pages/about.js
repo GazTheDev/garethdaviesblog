@@ -13,7 +13,7 @@ export default () => (
       I have created this website to blog about my life as a developer. I will keep this website updated along with my main website ( <a href="https://www.garethdavies.tech">Here</a> ) with all
       the latest news such as new tech releases or new web development tech.<br />
       <h2>Me:</h2>
-      <Image cloudName="b2b-webmasters" publicId="20181229_222949" width="300" crop="scale" />
+      <Image cloudName="b2b-webmasters" publicId="DSC_1715" width="300" crop="scale" />
 
     </p>
     <p>

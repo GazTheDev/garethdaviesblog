@@ -5,6 +5,8 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import PostTags from '../components/postTags'
 import { PostWrapper } from '../components/postwrapper'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+
 
 const StyledTag = styled.span`
   font-style: italic;
@@ -20,6 +22,9 @@ export default ({ data }) => {
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr />
+        <TwitterFollowButton
+          screenName={'GarethMedia'}
+        />
         <p>
           <StyledTag>Tags</StyledTag>: <PostTags tags={post.frontmatter.tags} />
         </p>

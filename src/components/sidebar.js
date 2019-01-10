@@ -140,7 +140,7 @@ export default ({ title, authorName }) => (
       <SiteTitle>{title}</SiteTitle>
     </StyledLink>
     <Logo
-      src="https://res.cloudinary.com/b2b-webmasters/image/upload/v1546118922/personal/Logo_Png_Logos.png"
+      src="https://res.cloudinary.com/b2b-webmasters/image/upload/v1547133276/DSC_1715.jpg"
       alt={authorName}
     />
     <NameBoard>{authorName}</NameBoard>
